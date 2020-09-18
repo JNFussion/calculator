@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    border: 1px solid black;
+    margin: 1rem;
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 5% 20% 75%;
+    background-color: hsl(0, 0%, 10%);
+}
+#tittle{
+    color: hsl(0, 0%, 80%);
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    text-justify: center;
+
+}
+#tittle div{
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#display label{
+    font-family: 'Segment7Standard'; 
+    background-color: hsl(0, 0%, 90%);
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;;
+}
+#operations{
+    font-size: 0.75rem;
+    text-align: end;
+}
+#result{
+    font-size: 1.5rem;
+}
+#buttons{
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 10% 75%;
+}
+#control{
+    padding: 1rem;
+}
+#control button{
+    font-size: 1.2rem;
+}
+#operators{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+#operators button{
+    font-size: 1.2rem;
+    width: 20%;
+}
+
+#numbers{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+}
