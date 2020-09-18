@@ -5,7 +5,6 @@
 <head>
     <title>Calculator</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css">
     <link rel="stylesheet" href="styles/reset.css" type="text/css" medial="all">
     <link rel="stylesheet" href="styles/main.css" type="text/css" medial="all">
 </head>
@@ -19,8 +18,8 @@
             </div>
         </div>
         <div id="display">
-            <label id="operations">123456789</label>
-            <label id="result">123456789</label>
+            <label id="operations"></label>
+            <label id="result"></label>
         </div>
 
         <div id="buttons">
@@ -32,25 +31,25 @@
             </div>
             <div id="operators">
 
-                <button type="button" id="plus">+</button>
-                <button type="button" id="minus">-</button>
-                <button type="button" id="multi">*</button>
-                <button type="button" id="divide">/</button>
+                <button type="button" class="operator" id="plus">+</button>
+                <button type="button" class="operator" id="minus">-</button>
+                <button type="button" class="operator" id="multi">*</button>
+                <button type="button" class="operator" id="divide">/</button>
                 
             </div>
             <div id="numbers">
 
-                <button type="button" id="0">7</button>
-                <button type="button" id="1">8</button>
-                <button type="button" id="9">9</button>
-                <button type="button" id="3">4</button>
-                <button type="button" id="4">5</button>
-                <button type="button" id="5">6</button>
-                <button type="button" id="6">1</button>
-                <button type="button" id="7">2</button>
-                <button type="button" id="1">3</button>
-                <button type="button" id="0">0</button>
-                <button type="button" id="dot">.</button>
+                <button type="button" class="number" id="0">7</button>
+                <button type="button" class="number" id="1">8</button>
+                <button type="button" class="number" id="9">9</button>
+                <button type="button" class="number" id="3">4</button>
+                <button type="button" class="number" id="4">5</button>
+                <button type="button" class="number" id="5">6</button>
+                <button type="button" class="number" id="6">1</button>
+                <button type="button" class="number" id="7">2</button>
+                <button type="button" class="number" id="1">3</button>
+                <button type="button" class="number" id="0">0</button>
+                <button type="button" class="number" id="dot">.</button>
                 <button type="button" id="equal">=</button>
             </div>
 
@@ -61,5 +60,5 @@
     </div>
 </body>
 
-
 </html>
+<script src="calculator.js"></script>
