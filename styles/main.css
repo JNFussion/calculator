@@ -45,7 +45,6 @@
 }
 #buttons{
 
-    box-sizing: border-box;
     display: grid;
     grid-template-rows: 15% 10% 75%;
 }
@@ -77,4 +76,14 @@ button{
     background-color: black;
     border: none;
     color: white;
+}
+.border-white-numbers{
+    border: 1px solid white;
+    margin: -1px;
+}
+.border-white-operators{
+    border: 1px solid white;
+}
+#equal{
+    background-color: rgb(6, 5, 32);
 }
